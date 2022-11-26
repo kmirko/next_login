@@ -16,6 +16,7 @@ export default function Page() {
 
           )
         })}
+        <Link href='/events'>EVENTS PAGE</Link>
       </div>
     </div>
   );
