@@ -1,4 +1,5 @@
 import { demos } from '@/lib/demos';
+import Image from 'next/image';
 import Link from 'next/link';
 
 export default function Page() {
@@ -16,6 +17,16 @@ export default function Page() {
 
           )
         })}
+      
+
+      <Image
+        src="/images/image1.jpg"
+        unoptimized
+        alt="Next.js Hoodie"
+        width={500}
+        height={90}
+      />
+       
         <Link href='/events'>EVENTS PAGE</Link>
       </div>
     </div>
